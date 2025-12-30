@@ -9,6 +9,8 @@ tar -czf "$backup_location/backup-$current_date.tar.gz" "$directory_to_backup" 	
 
 echo "bacup of $directory_to_backup on $current_date completed succefully inside $backup_location"
 	
- 
+# To run script file 
+# bash script1.sh /home/root5/DirectoryToBackup /home/root5/  
+# first we take diretory backup and second we take backup location.
 
 
